@@ -118,15 +118,7 @@ h2 {
 	overflow: auto;
 }
 
-#icon01 {
-	width: 30%;
-}
-
-#icon02 {
-	width: 30%;
-}
-
-#icon03 {
+.icon {
 	width: 30%;
 }
 
@@ -217,5 +209,126 @@ footer {
 
 }
 
+@media screen and (max-width: 980px) {
+   #wrapper {
+   	margin:auto;
+   	width: auto;
+   }
+
+   header {
+   	width:auto;
+   }
+
+   #contactarea {
+   	width: 55%;
+   }
+
+   input {
+	width: 80%;
+}
+
+textarea {
+	width:80%;
+}
+
+#aboutme {
+width:55%;
+}
+
+#biopic {
+	float: none;
+	margin: 20px auto;
+	width: 250px;
+	height: 250px;
+}
+
+#portfolioarea {
+width:55%;
+}
+
+	#connect {
+		width: 35%;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+#wrapper {
+	margin: auto;
+	width: auto;
+	min-height: 100%;
+}
+header {
+	width: auto;
+}
+
+h1 {
+	width:40%;
+	font-size: 20px;
+}
+
+#contactarea {
+	width:100%;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	clear:both;
+}
+
+input {
+	width: 80%;
+}
+
+textarea {
+	width:80%;
+}
+
+#aboutme {
+width:auto;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	clear:both;
+}
+
+#portfolioarea {
+width:auto;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	clear:both;	
+}
+
+   #connect {
+   	clear: both;
+   	margin: 0px 0px 60px 0px;
+	float: none;
+   	width: 100%;
+   }
+
+   .icon {
+   	width: 100px;
+   }
+
+   footer {
+   	width: 100%;
+   }
+}
+
+@media screen and (max-width: 640px) {
+	header {
+		width: auto;
+		padding: 20px;
+	}
+	h1 {
+		float: none;
+		width: auto;
+		font-size: 24px;
+	}
+   nav {
+   	float: none;
+   	clear: both;
+   	width: auto;
+   	text-align: center;
+   	font-size: 30px;
+   }
+}
 
 
