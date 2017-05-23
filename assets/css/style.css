@@ -97,10 +97,32 @@ a.nav-link:hover, a.nav-link:active, a.project-link:hover, a.project-link:active
 	text-decoration: none;
 }
 
+a.other:link, a.other:visited {
+	color: #1E1E1E;
+}
+
+a.other:hover, a.other:active {
+	color: #E84E70;
+}
+
+.inline-link {
+	background-color: #E84E70;
+	padding: 0px 5px;
+}
+
+a.inline-link:hover {
+	background-color: #fffcfc;
+}
+
 .project-link-list {
 	margin:20px 0px;
 	padding:0px;
 	text-align: center;
+}
+
+.back-gray {
+	background-color: #CCC9C9;
+	padding: 5px;
 }
 
 .left-align {
