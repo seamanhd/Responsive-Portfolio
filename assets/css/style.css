@@ -114,6 +114,11 @@ a.inline-link:hover {
 	background-color: #fffcfc;
 }
 
+.left-float {
+	width:90px;
+	float:left;
+}
+
 .project-link-list {
 	margin:20px 0px;
 	padding:0px;
@@ -141,8 +146,8 @@ a.inline-link:hover {
 }
 
 .bord-bottom {
-	margin: 20px 10px 10px 10px;
-	border-bottom: 2px solid #111;
+	width: 280px;
+	margin: 10px 10px 10px 10px;
 }
 
 .section-title {
@@ -169,7 +174,12 @@ a.inline-link:hover {
 }
 
 #contact-info {
-	margin-top: 20px;
+	float: left;
+	text-align: center;
+	width: 280px;
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 2px solid #111;
 }
 
 #bio-pic {
